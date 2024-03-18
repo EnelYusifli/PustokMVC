@@ -1,0 +1,139 @@
+﻿@using PustokTemp.Business.Interfaces
+@model Book
+@{
+    List<Author> authors = ViewBag.Authors;
+    List<Genre> genres = ViewBag.Genres;
+}
+<div class="container-fluid">
+    <h1>Update</h1>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="Title" class="form-label">Title</label>
+            <input asp-for="Title" class="form-control">
+            <span asp-validation-for="Title" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Desc" class="form-label">Desc</label>
+            <input asp-for="Desc" class="form-control">
+            <span asp-validation-for="Desc" style="color:red"></span>
+        </div>
+        <select asp-for="AuthorId" asp-items="@(new SelectList(authors,"Id","FullName"))">Authors</select>
+        <select asp-for="GenreId" asp-items="@(new SelectList(genres,"Id","Name"))">Genres</select>
+        <div class="mb-3">
+            <label for="BookCode" class="form-label">BookCode</label>
+            <input asp-for="BookCode" class="form-control">
+            <span asp-validation-for="BookCode" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="CostPrice" class="form-label">CostPrice</label>
+            <input asp-for="CostPrice" class="form-control">
+            <span asp-validation-for="CostPrice" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="SalePrice" class="form-label">SalePrice</label>
+            <input asp-for="SalePrice" class="form-control">
+            <span asp-validation-for="SalePrice" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="DiscountPercent" class="form-label">DiscountPercent</label>
+            <input asp-for="DiscountPercent" class="form-control">
+            <span asp-validation-for="DiscountPercent" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="StockCount" class="form-label">StockCount</label>
+            <input asp-for="StockCount" class="form-control">
+            <span asp-validation-for="StockCount" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="IsFeatured" class="form-label">IsFeatured</label>
+            <input asp-for="IsFeatured" class="form">
+            <span asp-validation-for="IsFeatured" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="IsNew" class="form-label">IsNew</label>
+            <input asp-for="IsNew" class="form">
+            <span asp-validation-for="IsNew" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="IsBestSeller" class="form-label">IsBestSeller</label>
+            <input asp-for="IsBestSeller" class="form">
+            <span asp-validation-for="IsBestSeller" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="IsInStock" class="form-label">IsInStock</label>
+            <input asp-for="IsInStock" class="form">
+            <span asp-validation-for="IsInStock" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="IsDeactive" class="form-label">IsDeactive</label>
+            <input asp-for="IsDeactive" class="form">
+            <span asp-validation-for="IsDeactive" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <div>
+                @{
+                    string? posterUrl = Model.BookImages
+                    .Where(x => x.IsPoster == true)
+                    .FirstOrDefault().Url;
+                }
+                <img src="~/uploads/books/@posterUrl" alt="Alternate Text" style="width:130px" />
+            </div>
+            <label for="PosterImgFile" class="form-label">PosterImgFile</label><br>
+            <input asp-for="PosterImgFile" class="form"><br>
+            <span asp-validation-for="PosterImgFile" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <div>
+                @{
+                    string? hoverUrl = Model.BookImages
+                    .Where(x => x.IsPoster == false)
+                    .FirstOrDefault().Url;
+                }
+                <img src="~/uploads/books/@hoverUrl" alt="Alternate Text" style="width:130px" />
+            </div>
+            <label for="HoverImgFile" class="form-label">HoverImgFile</label><br>
+            <input asp-for="HoverImgFile" class="form"><br>
+            <span asp-validation-for="HoverImgFile" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            @{
+                if ((Model.BookImages.Where(x => x.IsPoster == null)) is not null)
+                {
+                    <div class="container mt-5">
+                        <div class="row">
+                            @foreach (var img in (Model.BookImages.Where(x => x.IsPoster == null)))
+                            {
+                                <div style="position: relative; display: inline-block;">
+                                    <img src="~/uploads/books/@img.Url" alt="Image" style="width:130px">
+                                    <span class="delete" data-filename="@img.Url" onclick="deleteDetailImage('@img.Url')" style="position: absolute; top: 1px; right: 1px; cursor: pointer; color: red;">X</span>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+            <label for="DetailImgFiles" class="form-label">DetailImgFiles</label><br>
+            <input asp-for="DetailImgFiles" class="form"><br>
+            <span asp-validation-for="DetailImgFiles" style="color:red"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+</div>
+
+<script>
+    function deleteDetailImage(filename) {
+        fetch(`/Admin/Book/Update?filename=${filename}`, {
+            method: 'DELETE',
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                window.location.reload(true)
+            })
+            .catch(error => {
+                console.error('There was a problem with your fetch operation:', error);
+            });
+    }
+</script>
