@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using PustokTemp.Models;
 
 namespace PustokTemp.DAL
 {
-    public class PustokDbContext : DbContext
+    public class PustokDbContext : IdentityDbContext<AppUser>
     {
         public PustokDbContext(DbContextOptions<PustokDbContext> options) : base(options) { }
 

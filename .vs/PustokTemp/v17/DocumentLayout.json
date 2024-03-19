@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enelry\\source\\repos\\pustoktemp\\pustoktemp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enelry\\source\\repos\\pustoktemp\\pustoktemp\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enelry\\source\\repos\\pustoktemp\\pustoktemp\\areas\\admin\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enelry\\source\\repos\\pustoktemp\\pustoktemp\\areas\\admin\\viewmodels\\adminloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\viewmodels\\adminloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\Program.cs",
-              "RelativeDocumentMoniker": "PustokTemp\\Program.cs",
-              "ToolTip": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\Program.cs",
-              "RelativeToolTip": "PustokTemp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "AdminLoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\Areas\\Admin\\ViewModels\\AdminLoginViewModel.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\ViewModels\\AdminLoginViewModel.cs",
+              "ToolTip": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\Areas\\Admin\\ViewModels\\AdminLoginViewModel.cs",
+              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\ViewModels\\AdminLoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T09:54:49.233Z",
+              "WhenOpened": "2024-03-19T12:01:09.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T11:58:41.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:08:06.603Z",
               "EditorCaption": ""
             }
           ]

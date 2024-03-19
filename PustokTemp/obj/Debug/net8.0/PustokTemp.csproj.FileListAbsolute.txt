@@ -134,3 +134,5 @@ C:\Users\enelry\source\repos\PustokTemp\PustokTemp\obj\Debug\net8.0\refint\Pusto
 C:\Users\enelry\source\repos\PustokTemp\PustokTemp\obj\Debug\net8.0\PustokTemp.pdb
 C:\Users\enelry\source\repos\PustokTemp\PustokTemp\obj\Debug\net8.0\PustokTemp.genruntimeconfig.cache
 C:\Users\enelry\source\repos\PustokTemp\PustokTemp\obj\Debug\net8.0\ref\PustokTemp.dll
+C:\Users\enelry\source\repos\PustokTemp\PustokTemp\obj\Debug\net8.0\PustokTemp.sourcelink.json
+C:\Users\enelry\source\repos\PustokTemp\PustokTemp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
