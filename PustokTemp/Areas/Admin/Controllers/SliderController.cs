@@ -5,9 +5,11 @@ using PustokTemp.Extensions;
 using PustokTemp.Business.Interfaces;
 using PustokTemp.CustomExceptions.BookExceptions;
 using PustokTemp.CustomExceptions.Common;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EternaMVC.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "SuperAdmin,Admin")]
 public class SliderController : Controller
 {
     private readonly ISliderService _sliderService;

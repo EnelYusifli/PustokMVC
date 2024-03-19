@@ -6,7 +6,7 @@ using PustokTemp.Models;
 
 namespace PustokTemp.Areas.Admin.Controllers;
 [Area("Admin")]
-[Authorize (Roles = "SuperAdmin,Admin")]
+
 public class AuthController : Controller
 {
     private readonly UserManager<AppUser> _userManager;

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using PustokTemp.Areas.Admin.ViewModels;
 using PustokTemp.DAL;
 using PustokTemp.Models;
 using PustokTemp.ViewModels;
@@ -64,6 +65,30 @@ public class AccController : Controller
             return View();
         }
         return RedirectToAction("index","home");
+    }
+
+    public IActionResult Login()
+    {
+        return View();
+    }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Login(UserLoginViewModel userLoginViewModel)
+    {
+        if (!ModelState.IsValid) return View();
+        AppUser? member = await _userManager.FindByNameAsync(userLoginViewModel.UserName);
+        if (member is null)
+        {
+            ModelState.AddModelError("", "Invalid credentials");
+            return View();
+        }
+        var result = await _signInManager.PasswordSignInAsync(member, userLoginViewModel.Password, false, false);
+        if (!result.Succeeded)
+        {
+            ModelState.AddModelError("", "Invalid credentials");
+            return View();
+        }
+        return RedirectToAction("Index", "Home");
     }
 
 }

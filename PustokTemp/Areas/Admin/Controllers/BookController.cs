@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PustokTemp.Business.Interfaces;
 using PustokTemp.CustomExceptions.BookExceptions;
@@ -11,6 +12,7 @@ using System.Net;
 namespace PustokTemp.Areas.Admin.Controllers;
 
 [Area("Admin")]
+[Authorize(Roles = "SuperAdmin,Admin")]
 public class BookController : Controller
 {
     private readonly IBookService _bookService;

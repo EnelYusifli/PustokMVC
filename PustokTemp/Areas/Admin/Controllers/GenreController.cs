@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PustokMVC.Business.Interfaces;
 using PustokTemp.CustomExceptions.Common;
 using PustokTemp.CustomExceptions.GenreExceptions;
@@ -7,6 +8,7 @@ using PustokTemp.Models;
 namespace PustokMVC.Areas.Admin.Controllers;
 
 [Area("admin")]
+[Authorize(Roles = "SuperAdmin,Admin")]
 public class GenreController : Controller
 {
     private readonly IGenreService _genreService;

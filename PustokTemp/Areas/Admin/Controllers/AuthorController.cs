@@ -1,5 +1,6 @@
 ﻿namespace PustokTemp.Areas.Admin.Controllers
 {
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     using PustokTemp.Business.Interfaces;
     using PustokTemp.CustomExceptions.Common;
@@ -9,6 +10,7 @@
     namespace PustokMVC.Areas.Admin.Controllers
     {
         [Area("admin")]
+        [Authorize(Roles = "SuperAdmin,Admin")]
         public class AuthorController : Controller
         {
             private readonly IAuthorService _authorService;
