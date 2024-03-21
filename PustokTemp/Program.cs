@@ -30,6 +30,8 @@ builder.Services.AddScoped<IGenreService, GenreService>();
 builder.Services.AddScoped<IAuthorService, AuthorService>();
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<IAccService, AccService>();
+
 
 var app = builder.Build();
 

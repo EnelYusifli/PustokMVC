@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using PustokTemp.Areas.Admin.ViewModels;
+using PustokTemp.Business.Interfaces;
+using PustokTemp.CustomExceptions.Common;
 using PustokTemp.DAL;
 using PustokTemp.Models;
 using PustokTemp.ViewModels;
@@ -10,17 +13,11 @@ namespace PustokTemp.Controllers;
 
 public class AccController : Controller
 {
-    private readonly UserManager<AppUser> _userManager;
-    private readonly RoleManager<IdentityRole> _roleManager;
-    private readonly SignInManager<AppUser> _signInManager;
-    private readonly PustokDbContext _context;
+    private readonly IAccService _accService;
 
-    public AccController(UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<AppUser> signInManager,PustokDbContext context)
+    public AccController(IAccService accService)
     {
-        _userManager = userManager;
-        _roleManager = roleManager;
-        _signInManager = signInManager;
-        _context = context;
+        _accService = accService;
     }
     public IActionResult Register()
     {
@@ -31,40 +28,26 @@ public class AccController : Controller
     public async Task<IActionResult> Register(UserRegisterViewModel userRegisterViewModel)
     {
         if (!ModelState.IsValid)return View();
-        AppUser member = new AppUser()
+        try
         {
-            FullName = userRegisterViewModel.FullName,
-            UserName = userRegisterViewModel.UserName,
-            Email = userRegisterViewModel.Email
-        };
-        if(await _context.Users.AnyAsync(x => x.NormalizedUserName == member.UserName))
+            await _accService.RegisterAsync(userRegisterViewModel);
+        }
+        catch (NameAlreadyExistException ex)
         {
-            ModelState.AddModelError("UserName", "UserName is already exist");
+            ModelState.AddModelError(ex.PropertyName,ex.Message);
             return View();
         }
-        if (await _context.Users.AnyAsync(x => x.NormalizedEmail == member.Email))
+        catch (NotSucceededException ex)
         {
-            ModelState.AddModelError("Email", "Email is already exist");
+            ModelState.AddModelError("", ex.Message);
             return View();
         }
-        var result= await _userManager.CreateAsync(member, userRegisterViewModel.Password);
-        if (!result.Succeeded)
+        catch (Exception ex)
         {
-            foreach (var err in result.Errors) { 
-            ModelState.AddModelError("",err.Description);
-            }
+            ModelState.AddModelError("",ex.Message);
             return View();
         }
-        var roleResult = await _userManager.AddToRoleAsync(member, "Member");
-        if (!roleResult.Succeeded)
-        {
-            foreach (var err in roleResult.Errors)
-            {
-                ModelState.AddModelError("", err.Description);
-            }
-            return View();
-        }
-        return RedirectToAction("index","home");
+            return RedirectToAction("index","home");
     }
 
     public IActionResult Login()
@@ -76,16 +59,23 @@ public class AccController : Controller
     public async Task<IActionResult> Login(UserLoginViewModel userLoginViewModel)
     {
         if (!ModelState.IsValid) return View();
-        AppUser? member = await _userManager.FindByNameAsync(userLoginViewModel.UserName);
-        if (member is null)
+        try
         {
-            ModelState.AddModelError("", "Invalid credentials");
+            await _accService.LoginAsync(userLoginViewModel);
+        }
+        catch (EntityCannotBeFoundException ex)
+        {
+            ModelState.AddModelError("", ex.Message);
+            return View();
+        } 
+        catch (NotSucceededException ex)
+        {
+            ModelState.AddModelError("", ex.Message);
             return View();
         }
-        var result = await _signInManager.PasswordSignInAsync(member, userLoginViewModel.Password, false, false);
-        if (!result.Succeeded)
+        catch (Exception ex)
         {
-            ModelState.AddModelError("", "Invalid credentials");
+            ModelState.AddModelError("", ex.Message);
             return View();
         }
         return RedirectToAction("Index", "Home");

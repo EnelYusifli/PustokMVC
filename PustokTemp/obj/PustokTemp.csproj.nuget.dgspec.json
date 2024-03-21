@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\PustokTemp.csproj": {}
+    "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\PustokTemp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\PustokTemp.csproj": {
+    "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\PustokTemp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\PustokTemp.csproj",
+        "projectUniqueName": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\PustokTemp.csproj",
         "projectName": "PustokTemp",
-        "projectPath": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\PustokTemp.csproj",
-        "packagesPath": "C:\\Users\\enelry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enelry\\source\\repos\\PustokTemp\\PustokTemp\\obj\\",
+        "projectPath": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\PustokTemp.csproj",
+        "packagesPath": "C:\\Users\\Enel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\enelry\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Enel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
