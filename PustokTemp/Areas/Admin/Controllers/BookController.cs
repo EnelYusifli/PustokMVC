@@ -67,7 +67,6 @@ public class BookController : Controller
         }
         return RedirectToAction("Index");
     }
-
     public async Task<IActionResult> Update(int id)
     {
         ViewBag.Genres = _context.Genres.ToList();
@@ -110,7 +109,7 @@ public class BookController : Controller
         }
         return RedirectToAction("Index");
     }
-
+    [Authorize(Roles = "SuperAdmin")]
     public async Task<IActionResult> Delete(int id)
     {
         try
@@ -133,7 +132,7 @@ public class BookController : Controller
             await _bookService.HandleDetailImage(filename);
             return Ok();
         }
-        catch(EntityCannotBeFoundException ex)
+        catch(EntityCannotBeFoundException)
         {
             return NotFound();
         }

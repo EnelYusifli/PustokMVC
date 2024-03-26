@@ -63,4 +63,8 @@ public class AccService : IAccService
             }
         }
     }
+    public async Task LogoutAsync()
+    {
+        await _signInManager.SignOutAsync();
+    }
 }

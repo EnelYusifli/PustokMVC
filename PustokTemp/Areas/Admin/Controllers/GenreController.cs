@@ -20,7 +20,6 @@ public class GenreController : Controller
 
     public async Task<IActionResult> Index()
         => View(await _genreService.GetAllAsync(x => x.IsDeactive == false, "Books"));
-
     public IActionResult Create()
         => View();
 
@@ -47,7 +46,6 @@ public class GenreController : Controller
 
         return RedirectToAction(nameof(Index));
     }
-
     public async Task<IActionResult> Update(int id)
     {
         Genre genre = null;
@@ -94,7 +92,7 @@ public class GenreController : Controller
 
         return RedirectToAction(nameof(Index));
     }
-
+    [Authorize(Roles = "SuperAdmin")]
     public async Task<IActionResult> Delete(int id)
     {
         try

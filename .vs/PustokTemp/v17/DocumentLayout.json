@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Enel\\Desktop\\PustokMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\business\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\business\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\business\\implementations\\accservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\business\\implementations\\accservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\business\\interfaces\\iaccservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\business\\interfaces\\iaccservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\controllers\\acccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\controllers\\acccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\views\\acc\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\views\\acc\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\business\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\business\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABEAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T10:54:38.119Z",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PustokTemp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAALYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T08:54:43.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Implementations\\AuthService.cs",
-              "RelativeDocumentMoniker": "PustokTemp\\Business\\Implementations\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Implementations\\AuthService.cs",
-              "RelativeToolTip": "PustokTemp\\Business\\Implementations\\AuthService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABsAAABBAAAA",
+              "DocumentIndex": 4,
+              "Title": "AccController.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Controllers\\AccController.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Controllers\\AccController.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Controllers\\AccController.cs",
+              "RelativeToolTip": "PustokTemp\\Controllers\\AccController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T10:41:57.21Z",
+              "WhenOpened": "2024-03-21T11:13:32.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACcAAAAaAAAA",
+              "Title": "AccService.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Implementations\\AccService.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Business\\Implementations\\AccService.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Implementations\\AccService.cs",
+              "RelativeToolTip": "PustokTemp\\Business\\Implementations\\AccService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAEIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T07:35:00.468Z",
+              "WhenOpened": "2024-03-21T11:13:11.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAccService.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Interfaces\\IAccService.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Business\\Interfaces\\IAccService.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Interfaces\\IAccService.cs",
+              "RelativeToolTip": "PustokTemp\\Business\\Interfaces\\IAccService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T11:13:00.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "PustokTemp\\Business\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "PustokTemp\\Business\\Interfaces\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PustokTemp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T11:08:26.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Acc\\Login.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Views\\Acc\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Acc\\Login.cshtml",
+              "RelativeToolTip": "PustokTemp\\Views\\Acc\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T11:08:18.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T07:34:05.212Z",
+              "WhenOpened": "2024-03-21T11:06:19.837Z",
               "EditorCaption": ""
             }
           ]

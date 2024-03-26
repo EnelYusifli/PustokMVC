@@ -22,7 +22,7 @@
 
             public async Task<IActionResult> Index()
                 => View(await _authorService.GetAllAsync(x => x.IsDeactive == false, "Books"));
-
+            
             public IActionResult Create()
                 => View();
 
@@ -49,7 +49,6 @@
 
                 return RedirectToAction(nameof(Index));
             }
-
             public async Task<IActionResult> Update(int id)
             {
                 Author author = null;
@@ -96,7 +95,7 @@
 
                 return RedirectToAction(nameof(Index));
             }
-
+            [Authorize(Roles = "SuperAdmin")]
             public async Task<IActionResult> Delete(int id)
             {
                 try

@@ -6,4 +6,5 @@ public interface IAccService
 {
     Task RegisterAsync(UserRegisterViewModel userRegisterViewModel);
     Task LoginAsync(UserLoginViewModel userLoginViewModel);
+    Task LogoutAsync();
 }

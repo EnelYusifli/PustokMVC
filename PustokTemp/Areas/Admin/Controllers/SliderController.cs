@@ -103,7 +103,7 @@ public class SliderController : Controller
         }
         return RedirectToAction("Index");
     }
-
+    [Authorize(Roles = "SuperAdmin")]
     public async Task<IActionResult> Delete(int id)
     {
         try

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
@@ -79,6 +81,13 @@ public class AccController : Controller
             return View();
         }
         return RedirectToAction("Index", "Home");
+    }
+
+    public async Task<IActionResult> Logout()
+    {
+       await _accService.LogoutAsync();
+
+        return RedirectToAction("Login", "Acc");
     }
 
 }
