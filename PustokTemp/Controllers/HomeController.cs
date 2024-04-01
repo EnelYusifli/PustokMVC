@@ -38,7 +38,7 @@ public class HomeController : Controller
 
     public async Task<IActionResult> AddToBasket(int bookId)
     {
-        if (!await _context.Books.AnyAsync(x => x.Id == bookId)) return NotFound(); // 404
+        if (!await _context.Books.AnyAsync(x => x.Id == bookId)) return NotFound();
 
         List<BasketItemViewModel> basketItems = new List<BasketItemViewModel>();
         BasketItemViewModel basketItem = null;
@@ -83,7 +83,39 @@ public class HomeController : Controller
         return Ok();
     }
 
-    public async Task<IActionResult> Basket()
+
+	public async Task<IActionResult> RemoveItemFromBasket(int bookId)
+	{
+		if (!await _context.Books.AnyAsync(x => x.Id == bookId)) return NotFound();
+
+		List<BasketItemViewModel> basketItems = new List<BasketItemViewModel>();
+		BasketItemViewModel basketItem = null;
+		var basketItemsStr = HttpContext.Request.Cookies["BasketItems"];
+
+		if (basketItemsStr is not null)
+		{
+			basketItems = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemsStr);
+
+			basketItem = basketItems.FirstOrDefault(x => x.BookId == bookId);
+
+            if (basketItem is not null)
+            {
+                if(basketItem.Count > 1) basketItem.Count--;
+                else basketItems.Remove(basketItem);
+
+			}
+            else return NotFound();
+			
+		}
+		else return NotFound();
+
+		basketItemsStr = JsonConvert.SerializeObject(basketItems);
+
+		HttpContext.Response.Cookies.Append("BasketItems", basketItemsStr);
+
+        return RedirectToAction("Basket");
+	}
+	public async Task<IActionResult> Basket()
     {
         List<BasketItemViewModel> basketItems = new();
 
