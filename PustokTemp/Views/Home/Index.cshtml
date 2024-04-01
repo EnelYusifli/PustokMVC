@@ -186,7 +186,7 @@ Home Slider Tab
                                                     <img src="~/uploads/books/@item.BookImages.Where(x=>x.IsPoster==false).FirstOrDefault().Url" alt="">
                                                 </a>
                                                 <div class="hover-btns">
-                                                    <a href="cart.html" class="single-btn">
+                                                    <a asp-action="addtobasket" asp-controller="home" asp-route-bookid="@item.Id" class="single-btn  add-to-basket">
                                                         <i class="fas fa-shopping-basket"></i>
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
@@ -253,7 +253,7 @@ Home Slider Tab
                                                     <img src="~/uploads/books/@item.BookImages.Where(x=>x.IsPoster==false).FirstOrDefault().Url" alt="">
                                                 </a>
                                                 <div class="hover-btns">
-                                                    <a href="cart.html" class="single-btn">
+                                                    <a asp-action="addtobasket" asp-controller="home" asp-route-bookid="@item.Id" class="single-btn add-to-basket">
                                                         <i class="fas fa-shopping-basket"></i>
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
@@ -319,7 +319,7 @@ Home Slider Tab
                                                     <img src="~/uploads/books/@item.BookImages.Where(x=>x.IsPoster==false).FirstOrDefault().Url" alt="">
                                                 </a>
                                                 <div class="hover-btns">
-                                                    <a href="cart.html" class="single-btn">
+                                                    <a asp-action="addtobasket" asp-controller="home" asp-route-bookid="@item.Id" class="single-btn add-to-basket">
                                                         <i class="fas fa-shopping-basket"></i>
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">

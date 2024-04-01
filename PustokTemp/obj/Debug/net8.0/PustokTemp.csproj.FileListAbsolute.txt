@@ -274,3 +274,4 @@ C:\Users\Enel\Desktop\PustokMVC\PustokTemp\obj\Debug\net8.0\refint\PustokTemp.dl
 C:\Users\Enel\Desktop\PustokMVC\PustokTemp\obj\Debug\net8.0\PustokTemp.pdb
 C:\Users\Enel\Desktop\PustokMVC\PustokTemp\obj\Debug\net8.0\PustokTemp.genruntimeconfig.cache
 C:\Users\Enel\Desktop\PustokMVC\PustokTemp\obj\Debug\net8.0\ref\PustokTemp.dll
+C:\Users\Enel\Desktop\PustokMVC\PustokTemp\bin\Debug\net8.0\Newtonsoft.Json.dll

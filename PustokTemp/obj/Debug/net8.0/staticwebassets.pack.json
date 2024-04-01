@@ -7833,6 +7833,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\custom.js"
     },
     {
+      "Id": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\wwwroot\\assets\\js\\esas.js",
+      "PackagePath": "staticwebassets\\assets\\js\\esas.js"
+    },
+    {
       "Id": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\wwwroot\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\assets\\js\\main.js"
     },

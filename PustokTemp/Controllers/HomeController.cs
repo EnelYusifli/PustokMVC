@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using PustokTemp.DAL;
 using PustokTemp.Models;
 using PustokTemp.ViewModels;
@@ -33,5 +34,67 @@ public class HomeController : Controller
             .FirstOrDefaultAsync(x=>x.Id==id);
         if (book is null) throw new Exception();
         return View(book);
+    }
+
+    public async Task<IActionResult> AddToBasket(int bookId)
+    {
+        if (!await _context.Books.AnyAsync(x => x.Id == bookId)) return NotFound(); // 404
+
+        List<BasketItemViewModel> basketItems = new List<BasketItemViewModel>();
+        BasketItemViewModel basketItem = null;
+        var basketItemsStr = HttpContext.Request.Cookies["BasketItems"];
+
+        if (basketItemsStr is not null)
+        {
+            basketItems = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemsStr);
+
+            basketItem = basketItems.FirstOrDefault(x => x.BookId == bookId);
+
+            if (basketItem is not null)
+            {
+                basketItem.Count++;
+            }
+            else
+            {
+                basketItem = new BasketItemViewModel()
+                {
+                    BookId = bookId,
+                    Count = 1
+                };
+
+                basketItems.Add(basketItem);
+            }
+        }
+        else
+        {
+            basketItem = new BasketItemViewModel()
+            {
+                BookId = bookId,
+                Count = 1
+            };
+
+            basketItems.Add(basketItem);
+        }
+
+        basketItemsStr = JsonConvert.SerializeObject(basketItems);
+
+        HttpContext.Response.Cookies.Append("BasketItems", basketItemsStr);
+
+        return Ok();
+    }
+
+    public IActionResult GetBasketItems()
+    {
+        List<BasketItemViewModel> basketItems = new List<BasketItemViewModel>();
+
+        var basketItemsStr = HttpContext.Request.Cookies["BasketItems"];
+
+        if (basketItemsStr is not null)
+        {
+            basketItems = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemsStr);
+        }
+
+        return Ok(basketItems);
+
     }
 }

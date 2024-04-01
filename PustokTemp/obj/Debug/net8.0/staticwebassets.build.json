@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZZODsfADXcKcTNUrEFGjSJmzwwG/+oiblkkac3HAf9g=",
+  "Hash": "dFjJo/vTy2xm4nhCt+3V+lWgCiSMxwxz6rApLQudPV0=",
   "Source": "PustokTemp",
   "BasePath": "_content/PustokTemp",
   "Mode": "Default",
@@ -37236,6 +37236,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\custom.js"
+    },
+    {
+      "Identity": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\wwwroot\\assets\\js\\esas.js",
+      "SourceId": "PustokTemp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\wwwroot\\",
+      "BasePath": "_content/PustokTemp",
+      "RelativePath": "assets/js/esas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\esas.js"
     },
     {
       "Identity": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\wwwroot\\assets\\js\\main.js",
