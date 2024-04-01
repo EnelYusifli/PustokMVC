@@ -83,9 +83,9 @@ public class HomeController : Controller
         return Ok();
     }
 
-    public IActionResult GetBasketItems()
+    public async Task<IActionResult> Basket()
     {
-        List<BasketItemViewModel> basketItems = new List<BasketItemViewModel>();
+        List<BasketItemViewModel> basketItems = new();
 
         var basketItemsStr = HttpContext.Request.Cookies["BasketItems"];
 
@@ -94,7 +94,8 @@ public class HomeController : Controller
             basketItems = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemsStr);
         }
 
-        return Ok(basketItems);
-
+		ViewBag.Books = _context.Books.Include(x => x.BookImages).ToList();
+		
+        return View(basketItems);
     }
 }

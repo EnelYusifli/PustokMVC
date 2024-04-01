@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Enel\\Desktop\\PustokMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\views\\home\\basket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\views\\home\\basket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\wwwroot\\assets\\js\\esas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\wwwroot\\assets\\js\\esas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\viewmodels\\basketitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\viewmodels\\basketitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PustokTemp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PustokTemp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAAALsAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-01T20:10:46.033Z",
+              "DocumentIndex": 2,
+              "Title": "BasketItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\ViewModels\\BasketItemViewModel.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\ViewModels\\BasketItemViewModel.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\ViewModels\\BasketItemViewModel.cs",
+              "RelativeToolTip": "PustokTemp\\ViewModels\\BasketItemViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T21:23:29.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "esas.js",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\wwwroot\\assets\\js\\esas.js",
-              "RelativeDocumentMoniker": "PustokTemp\\wwwroot\\assets\\js\\esas.js",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\wwwroot\\assets\\js\\esas.js",
-              "RelativeToolTip": "PustokTemp\\wwwroot\\assets\\js\\esas.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-01T20:10:16.214Z",
+              "DocumentIndex": 0,
+              "Title": "Basket.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Basket.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Views\\Home\\Basket.cshtml",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Basket.cshtml",
+              "RelativeToolTip": "PustokTemp\\Views\\Home\\Basket.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAADMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T21:00:22.167Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "PustokTemp\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PustokTemp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAABIAAAAoAAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAF8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-01T19:34:49.319Z",
               "EditorCaption": ""
