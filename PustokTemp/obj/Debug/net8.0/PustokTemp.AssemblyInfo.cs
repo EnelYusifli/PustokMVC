@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PustokTemp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce01fdeaf002ec1b6256c5e7025c83e340832336")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77e37dae2633df8b168366667bfdbbccb2ddb84d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PustokTemp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PustokTemp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
