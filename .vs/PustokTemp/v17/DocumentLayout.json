@@ -3,12 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Enel\\Desktop\\PustokMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\models\\bookimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\models\\bookimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\areas\\admin\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\customexceptions\\bookexceptions\\imagecannotbenullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\customexceptions\\bookexceptions\\imagecannotbenullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\dal\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\dal\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\business\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\business\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\extensions\\fileextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\extensions\\fileextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,11 +86,207 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\Genre.cs",
+              "RelativeToolTip": "PustokTemp\\Models\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:19:55.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PustokTemp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:22:41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SliderService.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Implementations\\SliderService.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Business\\Implementations\\SliderService.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Business\\Implementations\\SliderService.cs",
+              "RelativeToolTip": "PustokTemp\\Business\\Implementations\\SliderService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:44:01.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:43:27.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PustokTemp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T19:34:49.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\Book.cs",
+              "RelativeToolTip": "PustokTemp\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:28:44.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookImage.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\BookImage.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Models\\BookImage.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\BookImage.cs",
+              "RelativeToolTip": "PustokTemp\\Models\\BookImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:28:42.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImageCannotBeNullException.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\CustomExceptions\\BookExceptions\\ImageCannotBeNullException.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\CustomExceptions\\BookExceptions\\ImageCannotBeNullException.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\CustomExceptions\\BookExceptions\\ImageCannotBeNullException.cs",
+              "RelativeToolTip": "PustokTemp\\CustomExceptions\\BookExceptions\\ImageCannotBeNullException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:59:12.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:16:33.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T15:29:58.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T15:29:22.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\Slider.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\Slider.cs",
+              "RelativeToolTip": "PustokTemp\\Models\\Slider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:28:50.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PustokDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\DAL\\PustokDbContext.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\DAL\\PustokDbContext.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\DAL\\PustokDbContext.cs",
+              "RelativeToolTip": "PustokTemp\\DAL\\PustokDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:05:17.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "PustokTemp\\Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:27:36.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Extensions\\FileExtension.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Extensions\\FileExtension.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Extensions\\FileExtension.cs",
+              "RelativeToolTip": "PustokTemp\\Extensions\\FileExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:04:54.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\appsettings.json",
+              "RelativeDocumentMoniker": "PustokTemp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\appsettings.json",
+              "RelativeToolTip": "PustokTemp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T15:03:05.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Checkout.cs",
               "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\Checkout.cs",
               "RelativeDocumentMoniker": "PustokTemp\\Models\\Checkout.cs",
@@ -42,12 +294,11 @@
               "RelativeToolTip": "PustokTemp\\Models\\Checkout.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAowBkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T21:15:39.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T21:15:39.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Checkout.cshtml",
               "RelativeDocumentMoniker": "PustokTemp\\Views\\Home\\Checkout.cshtml",
@@ -55,12 +306,11 @@
               "RelativeToolTip": "PustokTemp\\Views\\Home\\Checkout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T04:45:39.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T04:45:39.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "CheckoutBook.cs",
               "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\CheckoutBook.cs",
               "RelativeDocumentMoniker": "PustokTemp\\Models\\CheckoutBook.cs",
@@ -68,34 +318,7 @@
               "RelativeToolTip": "PustokTemp\\Models\\CheckoutBook.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T04:32:17.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PustokTemp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PustokTemp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAABAAAAAAAAAAAmwAYBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T19:34:49.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAAAAMAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T05:02:26.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T04:32:17.671Z"
             }
           ]
         }
