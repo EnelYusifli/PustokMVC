@@ -391,6 +391,112 @@ namespace PustokTemp.Migrations
                     b.ToTable("BookImages");
                 });
 
+            modelBuilder.Entity("PustokTemp.Models.Checkout", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address1")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Address2")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeactive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("PhoneNo")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<double>("TotalPrice")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Checkouts");
+                });
+
+            modelBuilder.Entity("PustokTemp.Models.CheckoutBook", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CheckoutId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeactive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CheckoutId");
+
+                    b.ToTable("CheckoutBooks");
+                });
+
             modelBuilder.Entity("PustokTemp.Models.Genre", b =>
                 {
                     b.Property<int>("Id")
@@ -566,6 +672,17 @@ namespace PustokTemp.Migrations
                     b.Navigation("Book");
                 });
 
+            modelBuilder.Entity("PustokTemp.Models.CheckoutBook", b =>
+                {
+                    b.HasOne("PustokTemp.Models.Checkout", "Checkout")
+                        .WithMany("CheckoutBooks")
+                        .HasForeignKey("CheckoutId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Checkout");
+                });
+
             modelBuilder.Entity("PustokTemp.Models.Author", b =>
                 {
                     b.Navigation("Books");
@@ -574,6 +691,11 @@ namespace PustokTemp.Migrations
             modelBuilder.Entity("PustokTemp.Models.Book", b =>
                 {
                     b.Navigation("BookImages");
+                });
+
+            modelBuilder.Entity("PustokTemp.Models.Checkout", b =>
+                {
+                    b.Navigation("CheckoutBooks");
                 });
 
             modelBuilder.Entity("PustokTemp.Models.Genre", b =>

@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\areas\\admin\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\areas\\admin\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\viewcomponents\\headerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\viewcomponents\\headerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|c:\\users\\enel\\desktop\\pustokmvc\\pustoktemp\\models\\checkoutbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBEE1C1-FC69-4893-A82F-FEE02AFFEA51}|PustokTemp\\PustokTemp.csproj|solutionrelative:pustoktemp\\models\\checkoutbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeDocumentMoniker": "PustokTemp\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeToolTip": "PustokTemp\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ViewState": "AQIAAOYAAAAAAAAAAAAAAOMAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T19:44:15.183Z",
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\Checkout.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Models\\Checkout.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\Checkout.cs",
+              "RelativeToolTip": "PustokTemp\\Models\\Checkout.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowBkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T21:15:39.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HeaderViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\ViewComponents\\HeaderViewComponent.cs",
-              "RelativeDocumentMoniker": "PustokTemp\\ViewComponents\\HeaderViewComponent.cs",
-              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\ViewComponents\\HeaderViewComponent.cs",
-              "RelativeToolTip": "PustokTemp\\ViewComponents\\HeaderViewComponent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T19:25:52.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Checkout.cshtml",
               "RelativeDocumentMoniker": "PustokTemp\\Views\\Home\\Checkout.cshtml",
               "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Views\\Home\\Checkout.cshtml",
               "RelativeToolTip": "PustokTemp\\Views\\Home\\Checkout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T18:46:56.136Z",
+              "WhenOpened": "2024-04-03T04:45:39.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckoutBook.cs",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\CheckoutBook.cs",
+              "RelativeDocumentMoniker": "PustokTemp\\Models\\CheckoutBook.cs",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Models\\CheckoutBook.cs",
+              "RelativeToolTip": "PustokTemp\\Models\\CheckoutBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T04:32:17.671Z",
               "EditorCaption": ""
             },
             {
@@ -75,9 +79,22 @@
               "RelativeDocumentMoniker": "PustokTemp\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PustokTemp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAAApwKcAAAANAAAA",
+              "ViewState": "AQIAAAABAAAAAAAAAAAmwAYBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-01T19:34:49.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "PustokTemp\\Areas\\Admin\\Views\\Book\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Enel\\Desktop\\PustokMVC\\PustokTemp\\Areas\\Admin\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "PustokTemp\\Areas\\Admin\\Views\\Book\\Create.cshtml",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAAMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T05:02:26.426Z",
               "EditorCaption": ""
             }
           ]

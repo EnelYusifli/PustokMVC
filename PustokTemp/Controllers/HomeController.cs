@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -219,8 +218,6 @@ public class HomeController : Controller
         if (user is not null)
         {
             userBasketItems = await _context.BasketItems.Where(bi => bi.AppUserId == user.Id && bi.IsDeactive == false).ToListAsync();
-
-
             basketItems = userBasketItems.Select(ubi => new BasketItemViewModel() { BookId = ubi.BookId, Count = ubi.Count }).ToList();
         }
         else
@@ -236,8 +233,51 @@ public class HomeController : Controller
         ViewBag.Books = _context.Books.Include(x => x.BookImages).ToList();
         return View(basketItems);
     }
-    public IActionResult Checkout()
+    public async Task<IActionResult> Checkout()
     {
-        return View();
+        List<CheckoutBook> checkoutBooks = new();
+        List<BasketItem> userBasketItems = new();
+        AppUser user = null;
+
+        if (HttpContext.User.Identity.IsAuthenticated)
+        {
+            user = await _userManager.FindByNameAsync(HttpContext.User.Identity.Name);
+        }
+        else return RedirectToAction("Login", "Acc");
+
+        if (user is not null)
+        {
+            userBasketItems = await _context.BasketItems.Where(bi => bi.AppUserId == user.Id && bi.IsDeactive == false).ToListAsync();
+            checkoutBooks = userBasketItems.Select(ubi => new CheckoutBook() { BookId = ubi.BookId, Count = ubi.Count }).ToList();
+        }
+        else return NotFound();
+        ViewBag.CheckoutBooks= checkoutBooks;
+        ViewBag.Books= _context.Books.ToList();
+		return View();
+    }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Checkout(Checkout checkout)
+    {
+        if (!ModelState.IsValid) return View(checkout);
+
+        try
+        {
+            foreach (var item in ViewBag.CheckoutBooks)
+            {
+                CheckoutBook checkoutBook = new();
+                checkoutBook = item;
+                await _context.CheckoutBooks.AddAsync(checkoutBook);
+            }
+            await _context.Checkouts.AddAsync(checkout);
+            await _context.SaveChangesAsync();
+        }
+        catch (Exception ex)
+        {
+            ModelState.AddModelError("", ex.Message);
+            return View(checkout);
+        }
+
+        return RedirectToAction("Index");
     }
 }

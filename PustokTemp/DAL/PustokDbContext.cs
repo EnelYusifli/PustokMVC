@@ -14,5 +14,7 @@ namespace PustokTemp.DAL
         public DbSet<Genre> Genres { get; set; }
         public DbSet<BookImage> BookImages { get; set; }
         public DbSet<BasketItem> BasketItems { get; set; }
+        public DbSet<Checkout> Checkouts { get; set; }
+        public DbSet<CheckoutBook> CheckoutBooks { get; set; }
     }
 }
